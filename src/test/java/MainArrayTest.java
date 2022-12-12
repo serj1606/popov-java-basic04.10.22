@@ -4,9 +4,8 @@ import org.junit.jupiter.api.Test;
 
 public class MainArrayTest {
     int[][] array = new int[][]{
-            {11, 2, 4},
-            {6, 3, 2},
-            {2, 1, 5}
+            {5, 2},
+            {6, 3}
     };
 
     @Test
@@ -20,3 +19,14 @@ public class MainArrayTest {
     }
 }
 
+
+
+
+
+
+
+
+
+ /*{11, 2, 4},
+         {6, 3, 2},
+         {2, 1, 5}*/
