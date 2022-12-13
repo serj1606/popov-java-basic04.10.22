@@ -3,19 +3,20 @@ import org.junit.jupiter.api.Test;
 
 
 public class MainArrayTest {
-    int[][] array = new int[][]{
-            {5, 2},
-            {6, 3}
-    };
+
 
     @Test
-    public void test1() {
-        Assertions.assertEquals(4, MainArray.averageArray(array));
+    public void shouldTestArrayAverage() {
+        double[] arrayAverage = {6,2,4,4};
+
+        Assertions.assertEquals(4, MainArray.averageArray(arrayAverage));
     }
 
     @Test
-    public void test2() {
+    public void shouldTestArraySquare() {
+        int[][] array = new int[3][3];
         Assertions.assertEquals(1, MainArray.arraySquare(array));
+
     }
 }
 
@@ -27,6 +28,3 @@ public class MainArrayTest {
 
 
 
- /*{11, 2, 4},
-         {6, 3, 2},
-         {2, 1, 5}*/
